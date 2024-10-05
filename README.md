@@ -12,6 +12,12 @@ Downloaded from http://www.cs.bc.edu/~sciore/simpledb/ and made it work with mod
 - Start client `/src/main/java/simpleclient/SimpleIJ.java`
 
 ```shell
+./gradlew assemble
+tar xzvf build/distributions/simpledb-java-1.0-SNAPSHOT.tar
+./simpledb-java-1.0-SNAPSHOT/bin/simpledb-java
+```
+
+```shell
 Connect> studentdb
 SQL> select sname from student;
 ```
